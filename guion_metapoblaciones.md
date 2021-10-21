@@ -28,8 +28,8 @@ Este acto docente consta de dos sesiones diferentes que se describen a continuac
 En esta sesión se suministra el siguiente material a los estudiantes:
 + Presentación de Prezi que se usa como guía en la explicación sobre la competencia intraespecífica. Esta presentación sigue la misma estructura y diseño visual que la utilizada en la sesión sobre poblaciones. Disponible en varios formatos:
   + [Visualización en línea](https://prezi.com/view/87Zp1kDAjo7rywP2w2h9).
-  + Descarga de ejecutable para verla offline. Disponible para  [Mac](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/main/presentacion/teoria_metapoblaciones.zip) y para [Windows](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/main/presentacion/teoria_metapoblaciones.exe).
-  + [Descarga en formato pdf](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/main/presentacion/teoria_metapoblaciones.pdf).
+  + Descarga de ejecutable para verla offline. Disponible para  [Mac](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2020-2021/presentacion/teoria_metapoblaciones.zip) y para [Windows](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2020-2021/presentacion/teoria_metapoblaciones.exe).
+  + [Descarga en formato pdf](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2020-2021/presentacion/teoria_metapoblaciones.pdf).
   + También se puede ver incrustada a continuación:
 
 <p><iframe src="https://prezi.com/view/87Zp1kDAjo7rywP2w2h9/embed" width="1200" height="900"> </iframe></p>
@@ -44,7 +44,7 @@ Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblaci
 + Restauración de poblaciones de anfibios en la cuenca del río Guadiamar después del accidente de Aznalcollar (año 1998).
 + Traslocación de megafauna en África.
 
-Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/main/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas. 
+Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2020-2021/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas. 
 
 
 
@@ -54,5 +54,4 @@ Aquí puedes ver el vídeo de esta sesión.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/REp3I6VuPOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
