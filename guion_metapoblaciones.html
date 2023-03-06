@@ -6,6 +6,7 @@
 <link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
@@ -22,8 +23,6 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
@@ -51,12 +50,12 @@ sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inh
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
-tr { break-inside: avoid; break-after: auto; }
+thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
 .CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
-.CodeMirror-linenumber { }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -73,6 +72,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
 .md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
 .md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
@@ -87,12 +87,14 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print { 
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
   .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -130,6 +132,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 }
 a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 .footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
@@ -199,6 +202,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
 
 
 :root {
@@ -457,11 +461,8 @@ code {
     html {
         font-size: 13px;
     }
-    table,
     pre {
         page-break-inside: avoid;
-    }
-    pre {
         word-wrap: break-word;
     }
 }
@@ -593,6 +594,8 @@ header, .context-menu, .megamenu-content, footer{
 </style><title>guion_metapoblaciones</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='guión-del-tema-metapoblaciones'><span>Guión del tema &quot;metapoblaciones&quot;</span></h1><blockquote><ul><li><strong><em><span>Versión</span></em></strong><span>: 2021-2022</span></li><li><strong><em><span>Asignatura (grado)</span></em></strong><span>: Ecología (CCAA)</span></li><li><strong><em><span>Autor</span></em></strong><span>: Curro Bonet-García (fjbonet@uco.es)</span></li><li><strong><span>Duración</span></strong><span>: Aproximadamente 2 horas.</span></li></ul></blockquote><p>&nbsp;</p><h2 id='objetivos'><span>Objetivos </span></h2><p><span>En esta guía se describen dos sesiones de una hora cada una. Tiene los siguientes objetivos. </span></p><ul><li><span>Definición del concepto de metapoblación. </span></li><li><span>Comprender que la idea de población que describimos en el tema anterior puede integrarse bien con el concepto de subpoblación que veremos aquí.</span></li><li><span>Entender que la definición de población es escalo-dependiente. A las escalas más pequeñas (de tiempo y de espacio) funciona como vimos en el tema anterior, pero a escalas superiores se asemeja al concepto de sub-especie.</span></li><li><span>Incorporar el concepto de migración como elemento clave para entender cómo funcionan las metapoblaciones en la naturaleza.</span></li><li><span>Aprender el papel que tiene el concepto de metapoblación en la gestión de especies.</span></li></ul><p>&nbsp;</p><p><span>Este acto docente consta de dos sesiones diferentes que se describen a continuación: &quot;Conceptos generales sobre metapoblaciones&quot; y &quot;El papel de las metapoblaciones en la gestión de especies&quot;</span></p><p>&nbsp;</p><h2 id='conceptos-generales-sobre-metapoblaciones'><span>Conceptos generales sobre metapoblaciones</span></h2><p><span>En esta sesión se suministra el siguiente material a los estudiantes:</span></p><ul><li><p><span>Presentación de Prezi que se usa como guía en la explicación sobre la competencia intraespecífica. Esta presentación sigue la misma estructura y diseño visual que la utilizada en la sesión sobre poblaciones. Disponible en varios formatos:</span></p><ul><li><a href='https://prezi.com/view/87Zp1kDAjo7rywP2w2h9'><span>Visualización en línea</span></a><span>.</span></li><li><span>Descarga de ejecutable para verla offline. Disponible para  </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/presentacion/teoria_metapoblaciones.zip'><span>Mac</span></a><span> y para </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/presentacion/teoria_metapoblaciones.exe'><span>Windows</span></a><span>.</span></li><li><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/presentacion/teoria_metapoblaciones.pdf'><span>Descarga en formato pdf</span></a><span>.</span></li><li><span>También se puede ver incrustada a continuación:</span></li></ul></li></ul><p><iframe src="https://prezi.com/view/87Zp1kDAjo7rywP2w2h9/embed" width="1200" height="900"> </iframe></p><p>&nbsp;</p><h2 id='el-papel-de-las-metapoblaciones-en-la-gestión-de-especies'><span>El papel de las metapoblaciones en la gestión de especies</span></h2><p><span>Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies:</span></p><ul><li><span>Manejo de la cabra montés ibérica en Andalucía.</span></li><li><span>Restauración de poblaciones de anfibios en la cuenca del río Guadiamar después del accidente de Aznalcollar (año 1998).</span></li><li><span>Traslocación de megafauna en África.</span></li></ul><p><span>Para guiar la sesión se usa </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/presentacion/aplicaciones_metapoblaciones.pptx'><span>esta</span></a><span> presentación de diapositivas. </span></p><p>&nbsp;</p><h2 id='evaluación-de-la-sesión-según-los-estudiantes'><span>Evaluación de la sesión según los estudiantes</span></h2><p><span>Aquí puedes ver los resultados que, por ahora, arroja </span><a href='https://docs.google.com/forms/d/e/1FAIpQLScbCKaNkzzjV5bH0yek41FO-KS7LtLhT_ilITS_ZR0Z2XJyCA/viewform?usp=sf_link'><span>esta</span></a><span> encuesta sobre grado de satisfacción de los objetivos planteados. Por favor, rellénala si no lo has hecho ya. Se tardan 10 segundos y sus resultados son de gran utilidad para mejorar los contenidos cada año. Gracias.</span></p><p><img src="https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/imagenes/cumplimiento_objetivos.png" alt="image" style="zoom:50%;" /></p><p><img src="https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/imagenes/desempenio_profesor.png" alt="image" style="zoom:50%;" /></p><p><span>Además, un estudiante dejó el siguiente comentario en el apartado de &quot;sugerencias&quot;:</span></p><ul><li><span>Ninguna, todo genial</span></li></ul></div></div>
+<div id='write'  class=''><h1 id='guión-del-tema-metapoblaciones'><span>Guión del tema &quot;metapoblaciones&quot;</span></h1><blockquote><ul><li><p><strong><em><span>Versión</span></em></strong><span>: 2022-2023</span></p></li><li><p><strong><em><span>Asignatura (grado)</span></em></strong><span>: Ecología (CCAA)</span></p></li><li><p><strong><em><span>Autor</span></em></strong><span>: Curro Bonet-García (fjbonet@uco.es)</span></p></li><li><p><strong><span>Duración</span></strong><span>: Aproximadamente 2 horas.</span></p></li></ul></blockquote><p><img src="https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/main/imagenes/portada.png" referrerpolicy="no-referrer" alt="portada"></p><p><span style="color:black;font-weight:700;font-size:8px">
+<span>    </span><a href='https://peerj.com/articles/11925/' target='_blank' class='url'>https://peerj.com/articles/11925/</a>
+</span></p><p>&nbsp;</p><h2 id='objetivos'><span>Objetivos </span></h2><p><span>En esta guía se describen dos sesiones de una hora cada una. Tiene los siguientes objetivos. </span></p><ul><li><p><span>Definición del concepto de metapoblación. </span></p></li><li><p><span>Comprender que la idea de población que describimos en el tema anterior puede integrarse bien con el concepto de subpoblación que veremos aquí.</span></p></li><li><p><span>Entender que la definición de población es escalo-dependiente. A las escalas más pequeñas (de tiempo y de espacio) funciona como vimos en el tema anterior, pero a escalas superiores se asemeja al concepto de sub-especie.</span></p></li><li><p><span>Incorporar el concepto de migración como elemento clave para entender cómo funcionan las metapoblaciones en la naturaleza.</span></p></li><li><p><span>Aprender el papel que tiene el concepto de metapoblación en la gestión de especies.</span></p></li></ul><p>&nbsp;</p><p><span>Este acto docente consta de dos sesiones diferentes que se describen a continuación: &quot;Conceptos generales sobre metapoblaciones&quot; y &quot;El papel de las metapoblaciones en la gestión de especies&quot;</span></p><p>&nbsp;</p><h2 id='conceptos-generales-sobre-metapoblaciones'><span>Conceptos generales sobre metapoblaciones</span></h2><p><span>En esta sesión se suministra el siguiente material a los estudiantes:</span></p><ul><li><p><span>Presentación de Prezi que se usa como guía en la explicación sobre la competencia intraespecífica. Esta presentación sigue la misma estructura y diseño visual que la utilizada en la sesión sobre poblaciones. Disponible en varios formatos:</span></p><ul><li><p><a href='https://prezi.com/view/87Zp1kDAjo7rywP2w2h9'><span>Visualización en línea</span></a><span>.</span></p></li><li><p><span>Descarga de ejecutable para verla offline. Disponible para  </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/presentacion/teoria_metapoblaciones.zip'><span>Mac</span></a><span> y para </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/presentacion/teoria_metapoblaciones.exe'><span>Windows</span></a><span>.</span></p></li><li><p><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/presentacion/teoria_metapoblaciones.pdf'><span>Descarga en formato pdf</span></a><span>.</span></p></li><li><p><span>También se puede ver incrustada a continuación:</span></p></li></ul></li></ul><p><iframe src="https://prezi.com/view/87Zp1kDAjo7rywP2w2h9/embed" width="1200" height="900"> </iframe></p><p>&nbsp;</p><h2 id='el-papel-de-las-metapoblaciones-en-la-gestión-de-especies'><span>El papel de las metapoblaciones en la gestión de especies</span></h2><p><span>Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies:</span></p><ul><li><p><span>Manejo de la cabra montés ibérica en Andalucía.</span></p></li><li><p><span>Restauración de poblaciones de anfibios en la cuenca del río Guadiamar después del accidente de Aznalcollar (año 1998).</span></p></li><li><p><span>Traslocación de megafauna en África.</span></p></li></ul><p><span>Para guiar la sesión se usa </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/presentacion/aplicaciones_metapoblaciones.pptx'><span>esta</span></a><span> presentación de diapositivas. </span></p><p>&nbsp;</p><h2 id='ideas-para-activar-el-preguntismo'><span>Ideas para activar el </span><a href='https://aprendientesdotorg.wordpress.com/2015/10/15/activar-el-preguntismo/'><span>preguntismo</span></a></h2><p><span>Se ha comprobado que una buena forma de fijar conocimientos y de identificar carencias en el aprendizaje es tratar de formular preguntas sobre el tema estudiado. Así que, en algunas sesiones abriré un espacio para que inventes preguntas. La idea es que formules una pregunta sobre temas que te interesen relacionados con lo que hemos visto en clase. O cuestiones que conecten con la actualidad o que estén relacionadas con otras disciplinas. También sirven preguntas locas que no tienen por qué tener respuesta. Sube tu pregunta a </span><a href='https://docs.google.com/forms/d/e/1FAIpQLScs9QiBABvvDUt1La1wNdGmao9PplCMSReVgV8wBIX5Q3YTZQ/viewform?usp=sf_link'><span>este</span></a><span> formulario en los últimos 5&#39; de clase. </span></p></div></div>
 </body>
 </html>
