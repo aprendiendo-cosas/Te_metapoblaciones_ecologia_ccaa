@@ -1,12 +1,14 @@
 # Guión del tema "metapoblaciones"
 
 
-> + **_Versión_**: 2021-2022
+> + **_Versión_**: 2022-2023
 > + **_Asignatura (grado)_**: Ecología (CCAA)
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **Duración**: Aproximadamente 2 horas.
 
+![portada]()
 
+https://peerj.com/articles/11925/
 
 ## Objetivos 
 
@@ -48,13 +50,3 @@ Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_meta
 
 
 
-## Evaluación de la sesión según los estudiantes
-
-Aquí puedes ver los resultados que, por ahora, arroja [esta](https://docs.google.com/forms/d/e/1FAIpQLScbCKaNkzzjV5bH0yek41FO-KS7LtLhT_ilITS_ZR0Z2XJyCA/viewform?usp=sf_link) encuesta sobre grado de satisfacción de los objetivos planteados. Por favor, rellénala si no lo has hecho ya. Se tardan 10 segundos y sus resultados son de gran utilidad para mejorar los contenidos cada año. Gracias.
-
-<img src="https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/imagenes/cumplimiento_objetivos.png" alt="image" style="zoom:50%;" />
-
-<img src="https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2021-2022/imagenes/desempenio_profesor.png" alt="image" style="zoom:50%;" />
-
-Además, un estudiante dejó el siguiente comentario en el apartado de "sugerencias":
-+ Ninguna, todo genial
