@@ -3,16 +3,16 @@
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
 
-<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 h1, h2, h3, h4, h5 { white-space: pre-wrap; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
@@ -20,14 +20,14 @@ a:active, a:hover { outline: 0px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 .typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; font-size-adjust: inherit; font-kerning: inherit; font-variant-alternates: inherit; font-variant-ligatures: inherit; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-position: inherit; font-feature-settings: inherit; font-optical-sizing: inherit; font-variation-settings: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
@@ -45,7 +45,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -54,7 +54,7 @@ thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-gutters { border-right-width: 0px; border-right-style: none; border-right-color: currentcolor; background-color: inherit; }
 .CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
@@ -65,7 +65,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
 .md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
@@ -75,7 +75,7 @@ div.hr:focus { cursor: none; }
 svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -85,10 +85,10 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print { 
+@media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -98,7 +98,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
 #write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
@@ -109,9 +109,9 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: medium; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -124,7 +124,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) { 
+@media screen and (max-width: 48em) {
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -136,23 +136,23 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
-code { text-align: left; }
-a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom-width: 0px; }
+table tr th { border-bottom-width: 0px; border-bottom-style: none; border-bottom-color: currentcolor; }
 video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
+iframe { max-width: 100%; width: 100%; border: medium; }
 .highlight td, .highlight tr { border: 0px; }
-mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
-@media print { 
+@media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
@@ -160,24 +160,24 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
 .md-fences.md-fences-math { font-size: 1em; }
 .md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
-.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
 .typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
 .typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .typora-export-sidebar { display: none; }
 }
-.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
-.outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
-.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-expander { width: 1rem; height: 1.428571rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
-.outline-expander:hover::before { content: ''; }
+.outline-expander:hover::before { content: ""; }
 .outline-h1 > .outline-item { padding-left: 0px; }
 .outline-h2 > .outline-item { padding-left: 1em; }
 .outline-h3 > .outline-item { padding-left: 2em; }
@@ -189,20 +189,34 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
 .outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
-.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
 .typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
-.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
 .typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
 mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left-width: 0.25em; border-left-style: solid; border-left-color: rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
 
 :root {
@@ -210,7 +224,7 @@ mjx-container { break-inside: avoid; }
     --control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 /* open-sans-regular - latin-ext_latin */
   /* open-sans-italic - latin-ext_latin */
@@ -558,6 +572,10 @@ header, .context-menu, .megamenu-content, footer{
     background-color: var(--side-bar-bg-color);
 }
 
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
 .md-lang {
     color: #b4654d;
 }
@@ -594,8 +612,8 @@ header, .context-menu, .megamenu-content, footer{
 </style><title>guion_metapoblaciones</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='guión-del-tema-metapoblaciones'><span>Guión del tema &quot;metapoblaciones&quot;</span></h1><blockquote><ul><li><p><strong><em><span>Versión</span></em></strong><span>: 2022-2023</span></p></li><li><p><strong><em><span>Asignatura (grado)</span></em></strong><span>: Ecología (CCAA)</span></p></li><li><p><strong><em><span>Autor</span></em></strong><span>: Curro Bonet-García (fjbonet@uco.es)</span></p></li><li><p><strong><span>Duración</span></strong><span>: Aproximadamente 2 horas.</span></p></li></ul></blockquote><p><img src="https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/2022-2023/imagenes/portada.png" referrerpolicy="no-referrer" alt="portada"></p><p><span style="color:black;font-weight:700;font-size:8px">
+<div id='write'  class=''><h1 id='guión-del-tema-metapoblaciones'><span>Guión del tema &quot;metapoblaciones&quot;</span></h1><blockquote><ul><li><p><strong><em><span>Versión</span></em></strong><span>: 2023-2024</span></p></li><li><p><strong><em><span>Asignatura (grado)</span></em></strong><span>: Ecología (CCAA)</span></p></li><li><p><strong><em><span>Autor</span></em></strong><span>: Curro Bonet-García (fjbonet@uco.es)</span></p></li><li><p><strong><span>Duración</span></strong><span>: Aproximadamente 2 horas.</span></p></li></ul></blockquote><p><img src="https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/2023_2024/imagenes/portada.png" referrerpolicy="no-referrer" alt="portada"></p><p><span style="color:black;font-weight:700;font-size:8px">
 <span>    </span><a href='https://peerj.com/articles/11925/' target='_blank' class='url'>https://peerj.com/articles/11925/</a>
-</span></p><p>&nbsp;</p><h2 id='objetivos'><span>Objetivos </span></h2><p><span>En esta guía se describen dos sesiones de una hora cada una. Tiene los siguientes objetivos. </span></p><ul><li><p><span>Definición del concepto de metapoblación. </span></p></li><li><p><span>Comprender que la idea de población que describimos en el tema anterior puede integrarse bien con el concepto de subpoblación que veremos aquí.</span></p></li><li><p><span>Entender que la definición de población es escalo-dependiente. A las escalas más pequeñas (de tiempo y de espacio) funciona como vimos en el tema anterior, pero a escalas superiores se asemeja al concepto de sub-especie.</span></p></li><li><p><span>Incorporar el concepto de migración como elemento clave para entender cómo funcionan las metapoblaciones en la naturaleza.</span></p></li><li><p><span>Aprender el papel que tiene el concepto de metapoblación en la gestión de especies.</span></p></li></ul><p>&nbsp;</p><p><span>Este acto docente consta de dos sesiones diferentes que se describen a continuación: &quot;Conceptos generales sobre metapoblaciones&quot; y &quot;El papel de las metapoblaciones en la gestión de especies&quot;</span></p><p>&nbsp;</p><h2 id='conceptos-generales-sobre-metapoblaciones'><span>Conceptos generales sobre metapoblaciones</span></h2><p><span>En esta sesión se suministra el siguiente material a los estudiantes:</span></p><ul><li><p><span>Presentación de Prezi que se usa como guía en la explicación sobre la competencia intraespecífica. Esta presentación sigue la misma estructura y diseño visual que la utilizada en la sesión sobre poblaciones. Disponible en varios formatos:</span></p><ul><li><p><a href='https://prezi.com/view/87Zp1kDAjo7rywP2w2h9'><span>Visualización en línea</span></a><span>.</span></p></li><li><p><span>Descarga de ejecutable para verla offline. Disponible para  </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2022-2023/presentacion/teoria_metapoblaciones.zip'><span>Mac</span></a><span> y para </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2022-2023/presentacion/teoria_metapoblaciones.exe'><span>Windows</span></a><span>.</span></p></li><li><p><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2022-2023/presentacion/teoria_metapoblaciones.pdf'><span>Descarga en formato pdf</span></a><span>.</span></p></li><li><p><span>También se puede ver incrustada a continuación:</span></p></li></ul></li></ul><p><iframe src="https://prezi.com/view/87Zp1kDAjo7rywP2w2h9/embed" width="1200" height="900"> </iframe></p><p>&nbsp;</p><h2 id='el-papel-de-las-metapoblaciones-en-la-gestión-de-especies'><span>El papel de las metapoblaciones en la gestión de especies</span></h2><p><span>Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies:</span></p><ul><li><p><span>Manejo de la cabra montés ibérica en Andalucía.</span></p></li><li><p><span>Restauración de poblaciones de anfibios en la cuenca del río Guadiamar después del accidente de Aznalcollar (año 1998).</span></p></li><li><p><span>Traslocación de megafauna en África.</span></p></li></ul><p><span>Para guiar la sesión se usa </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2022-2023/presentacion/aplicaciones_metapoblaciones.pptx'><span>esta</span></a><span> presentación de diapositivas. </span></p><p>&nbsp;</p><h2 id='ideas-para-activar-el-preguntismo'><span>Ideas para activar el </span><a href='https://aprendientesdotorg.wordpress.com/2015/10/15/activar-el-preguntismo/'><span>preguntismo</span></a></h2><p><span>Se ha comprobado que una buena forma de fijar conocimientos y de identificar carencias en el aprendizaje es tratar de formular preguntas sobre el tema estudiado. Así que, en algunas sesiones abriré un espacio para que inventes preguntas. La idea es que formules una pregunta sobre temas que te interesen relacionados con lo que hemos visto en clase. O cuestiones que conecten con la actualidad o que estén relacionadas con otras disciplinas. También sirven preguntas locas que no tienen por qué tener respuesta. Sube tu pregunta a </span><a href='https://docs.google.com/forms/d/e/1FAIpQLScs9QiBABvvDUt1La1wNdGmao9PplCMSReVgV8wBIX5Q3YTZQ/viewform?usp=sf_link'><span>este</span></a><span> formulario en los últimos 5&#39; de clase. </span></p><p><span>A continuación se pueden ver las preguntas realizadas:</span></p><ul><li><p><strong><span>En España, ¿hay algún ejemplo tan grande como el que se ha visto de los elefantes en África?.</span></strong><span> No, que yo sepa en España no se han hecho traslocaciones tan relevantes. Lo que suele hacer es organizar planes de cría en cautividad de especies. Luego los individuos se liberan en la naturaleza. El plan de </span><a href='https://www.miteco.gob.es/es/biodiversidad/temas/recursos-geneticos/conservacion-exsitu/ce-exsitu-prog-lince.aspx'><span>cría del lince</span></a><span> o el del </span><a href='https://quebrantahuesos.org/programa-de-cria-en-cautividad-y-liberacion-de-quebrantahuesos-2/'><span>quebrantahuesos</span></a><span> podrían ser los ejemplos más relevantes en nuestro país. </span></p></li><li><p><strong><span>Al trasladar una especie nueva a otro habitat como hemos visto en el video, ¿no es posible que afecte negativamente a las especies que habitan allí desde el principio?.</span></strong><span> Sí, claro que puede tener un impacto. Para minimizarlo se hacen estudios y no se suele mover la especie a sitios en los que no ha estado nunca. Normalmente la gestión metapoblacional implica trasladar ejemplares entre subpoblaciones en las que ya está la especie. Es decir, la idea es suplir con medidas de gestión los procesos migratorios que ocurren en metapoblaciones naturales. </span></p></li><li><p><strong><span>Individuos que hacen simbiosis entre si son considerados como una misma población; por ejemplo, si una planta se une a un hongo, ¿este hongo entra dentro del concepto de población?</span></strong><span>Mmmm, curiosa pregunta. Es un ejemplo más en el que el concepto de población que hemos estudiado falla. En casos de simbiosis lo que suele ocurrir es que la población lo constituyen todas las especies que interaccionan.</span></p></li><li><p><strong><span>Esta claro que en el caso de la sobrepoblacion de los elefantes proviene de que, como ya hemos visto, al encontrase en una reserva tienen recursos &quot;ilimitados&quot; y por eso la poblacion no deja de crecer. ¿No seria conveniente limitar esos recursos para frenar un poco el crecimiento de la misma?</span></strong><span>. No, la limitación artificial de recursos provocaría dinámicas parecidas. La población crecería hasta llegar a la capacidad de carga del sistema. Solo que habría menos ejemplares. Imagino que lo que tienes en mente es cómo se regulan las poblaciones sin llegar a que la competencia intraespecífica reduzca las poblaciones. La respuesta es que las otras interacciones (depredación, cooperación, simbiosis, etc.) modulan el impacto de la competencia intraespecífica. La combinación de todas ellas genera dinámicas más estables de los tamaños poblacionales.</span></p></li><li><p><strong><span>¿Cuáles son los otros métodos de gestión de las zonas protegidas?</span></strong><span> Hablaremos de esto en cuanto trascendamos la idea de población y hablemos de comunidades.</span></p></li><li><p><strong><span>Y para reconocer a las familias de elefantes, además de controlar las interacciones entre individuos, ¿realizan los veterinarios otro tipo de análisis?</span></strong><span> Pues no lo sé, supongo que sí.</span></p></li><li><p><strong><span>Por último, ¿cuánto tiempo y recursos se necesitan para organizar este tipo de operaciones?</span></strong><span>. Pues imagínate. Mucho dinero y mucho tiempo. No sé las cifras exactas, pero debe de ser caro, sí.</span></p></li></ul><p>&nbsp;</p></div></div>
+</span></p><p>&nbsp;</p><h2 id='objetivos'><span>Objetivos </span></h2><p><span>En esta guía se describen dos sesiones de una hora cada una. Tiene los siguientes objetivos. </span></p><ul><li><p><span>Definición del concepto de metapoblación. </span></p></li><li><p><span>Comprender que la idea de población que describimos en el tema anterior puede integrarse bien con el concepto de subpoblación que veremos aquí.</span></p></li><li><p><span>Entender que la definición de población es escalo-dependiente. A las escalas más pequeñas (de tiempo y de espacio) funciona como vimos en el tema anterior, pero a escalas superiores se asemeja al concepto de sub-especie.</span></p></li><li><p><span>Incorporar el concepto de migración como elemento clave para entender cómo funcionan las metapoblaciones en la naturaleza.</span></p></li><li><p><span>Aprender el papel que tiene el concepto de metapoblación en la gestión de especies.</span></p></li></ul><p>&nbsp;</p><p><span>Este acto docente consta de dos sesiones diferentes que se describen a continuación: &quot;Conceptos generales sobre metapoblaciones&quot; y &quot;El papel de las metapoblaciones en la gestión de especies&quot;</span></p><p>&nbsp;</p><h2 id='conceptos-generales-sobre-metapoblaciones'><span>Conceptos generales sobre metapoblaciones</span></h2><p><span>En esta sesión se suministra el siguiente material a los estudiantes:</span></p><ul><li><p><span>Presentación de Prezi que se usa como guía en la explicación sobre la competencia intraespecífica. Esta presentación sigue la misma estructura y diseño visual que la utilizada en la sesión sobre poblaciones. Disponible en varios formatos:</span></p><ul><li><p><a href='https://prezi.com/view/ozK4bgupN9vxSxgBC5ds/'><span>Visualización en línea</span></a><span>.</span></p></li><li><p><span>Descarga de ejecutable para verla offline. Disponible para  </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023_2024/presentacion/teoria_metapoblaciones.zip'><span>Mac</span></a><span> y para </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023_2024/presentacion/teoria_metapoblaciones.exe'><span>Windows</span></a><span>.</span></p></li><li><p><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023_2024/presentacion/teoria_metapoblaciones.pdf'><span>Descarga en formato pdf</span></a><span>.</span></p></li><li><p><span>También se puede ver incrustada a continuación:</span></p></li></ul></li></ul><iframe src="https://prezi.com/p/embed/ozK4bgupN9vxSxgBC5ds/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="915" width="560"></iframe><h2 id='el-papel-de-las-metapoblaciones-en-la-gestión-de-especies'><span>El papel de las metapoblaciones en la gestión de especies</span></h2><p><span>Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies:</span></p><ul><li><p><span>Manejo de la cabra montés ibérica en Andalucía.</span></p></li><li><p><span>Restauración de poblaciones de anfibios en la cuenca del río Guadiamar después del accidente de Aznalcollar (año 1998).</span></p></li><li><p><span>Traslocación de megafauna en África.</span></p></li></ul><p><span>Para guiar la sesión se usa </span><a href='https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023_2024/presentacion/aplicaciones_metapoblaciones.pptx'><span>esta</span></a><span> presentación de diapositivas. </span></p><p>&nbsp;</p><h2 id='ideas-para-activar-el-preguntismo'><span>Ideas para activar el </span><a href='https://aprendientesdotorg.wordpress.com/2015/10/15/activar-el-preguntismo/'><span>preguntismo</span></a></h2><p><span>Se ha comprobado que una buena forma de fijar conocimientos y de identificar carencias en el aprendizaje es tratar de formular preguntas sobre el tema estudiado. Así que, en algunas sesiones abriré un espacio para que inventes preguntas. La idea es que formules una pregunta sobre temas que te interesen relacionados con lo que hemos visto en clase. O cuestiones que conecten con la actualidad o que estén relacionadas con otras disciplinas. También sirven preguntas locas que no tienen por qué tener respuesta. Sube tu pregunta a </span><a href='https://docs.google.com/forms/d/e/1FAIpQLScs9QiBABvvDUt1La1wNdGmao9PplCMSReVgV8wBIX5Q3YTZQ/viewform?usp=sf_link'><span>este</span></a><span> formulario en los últimos 5&#39; de clase. </span></p><p>&nbsp;</p><p>&nbsp;</p></div></div>
 </body>
 </html>
