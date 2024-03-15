@@ -46,9 +46,27 @@ En esta sesión se suministra el siguiente material a los estudiantes:
 
 Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies:
 
-+ Manejo de la cabra montés ibérica en Andalucía.
-+ Restauración de poblaciones de anfibios en la cuenca del río Guadiamar después del accidente de Aznalcollar (año 1998).
-+ Traslocación de megafauna en África.
++ Manejo de la cabra montés ibérica en Andalucía. Esta parte la comentamos explícitamente en clase.
++ Restauración de poblaciones de anfibios en la cuenca del río Guadiamar después del accidente de Aznalcollar (año 1998). No dio tiempo a hablar de esto.
++ Traslocación de megafauna en África. No nos dio tiempo a ver el vídeo, pero sí a comentarlo al día siguiente. A continuación se describe lo comentado:
+  + ¿Qué conceptos o teorías propias de la ecología habéis identificado en el vídeo?
+    + Capacidad de carga. En la población original había muchos elefantes y su número se aproximaba a la capacidad de carga.
+    + Dice Pablo que el hecho de que el elefante no tenga depredadores puede influir en que sus poblaciones se "descontrolen".
+    + El concepto de madurez sexual tiene importancia en el sentido en el que no es lo mismo retirar un elefante viejo no reproductivo que uno joven que sí puede tener descendencia. 
+    + También vemos el efecto de los dos niveles de regulación dentro de las metapoblaciones: dina´mica interna en la subpoblación con sobreabundancia y migración en la escala metapoblacional.
+
+  + ¿A qué proceso ecológico natural sustituye la traslocación de elefantes?
+    + migración natural
+
+  + ¿Qué problemas o desventajas tiene la traslocación de ejemplares?
+    + Puede que con el elefante viajen enfermedades que afecten a la población destino -> chequeo veterinario para evitar esto.
+    + impacto del elefante nuevo en el territorio de llegada -> No lo sabemos.
+    + Coste económico y humano para hacer todo esto -> 
+    + problemas comportamentales (etológicos) de los elefantes que llegan al sitio nuevo -> necesitamos etólogos/as que nos ayuden en esto. 
+    + problemas de adaptacióin psicológica del elefante que se transporta -> no sabemos cómo hacerlo
+
+  + ¿Cómo podríamos minimizar dichos problemas?
+
 
 Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023_2024/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas. 
 
