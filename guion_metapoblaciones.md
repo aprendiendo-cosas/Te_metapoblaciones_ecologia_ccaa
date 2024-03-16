@@ -6,7 +6,7 @@
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **Duración**: Aproximadamente 2 horas.
 
-![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/2023_2024/imagenes/portada.png)
+![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/2023-2024/imagenes/portada.png)
 
 
 <span style="color:black;font-weight:700;font-size:8px">
@@ -32,45 +32,46 @@ Este acto docente consta de dos sesiones diferentes que se describen a continuac
 
 
  ## Conceptos generales sobre metapoblaciones
-En esta sesión se suministra el siguiente material a los estudiantes:
-+ Presentación de Prezi que se usa como guía en la explicación sobre la competencia intraespecífica. Esta presentación sigue la misma estructura y diseño visual que la utilizada en la sesión sobre poblaciones. Disponible en varios formatos:
-  + [Visualización en línea](https://prezi.com/view/ozK4bgupN9vxSxgBC5ds/).
-  + Descarga de ejecutable para verla offline. Disponible para  [Mac](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023_2024/presentacion/teoria_metapoblaciones.zip) y para [Windows](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023_2024/presentacion/teoria_metapoblaciones.exe).
-  + [Descarga en formato pdf](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023_2024/presentacion/teoria_metapoblaciones.pdf).
-  + También se puede ver incrustada a continuación:
+Los principios generales de la teoría de metapoblaciones se basan en ampliar el concepto inicial de población para tener en cuenta que no todos los organismos de una especie se distribuyen homogeneamente por el territorio. En realidad lo hacen en forma de subpoblaciones. Cada subpoblación tiene unas características demográficas propias. Además, cada subpoblación intercambia individuos con otras subpoblaciones cercanas. Esto genera el concepto de metapoblación como el conjunto de todas las subpoblaciones de una especie. Este concepto, como tantos otros en ecología, es escalo-dependiente. En áreas geográficas grandes se reduce el intercambio de individuos entre subpoblaciones. Si esa desconexión se extiende en el tiempo, podemos tener situaciones que fomenten la creación de subespecies diferentes. 
+
+La idea de metapoblación implica que hay dos mecanismos de regulación a dos escalas diferentes. Cada subpoblación se regula mediante los mecanismos que ya conocemos de las poblaciones (tasa de natalidad, mortalidad, etc.). La metapoblación se regula mediante las tasas de migración de individuos entre subpoblaciones y mediante las tasas de extinción de cada subpoblación.
+
+Estos conceptos y algunos más se muestran en la siguiente presentación:
+
++ [Visualización en línea](https://prezi.com/view/ozK4bgupN9vxSxgBC5ds/).
++ Descarga de ejecutable para verla offline. Disponible para  [Mac](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023-2024/presentacion/teoria_metapoblaciones.zip) y para [Windows](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023-2024/presentacion/teoria_metapoblaciones.exe).
++ [Descarga en formato pdf](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023-2024/presentacion/teoria_metapoblaciones.pdf).
++ También se puede ver incrustada a continuación:
 
 <iframe src="https://prezi.com/p/embed/ozK4bgupN9vxSxgBC5ds/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="915" width="560"></iframe>
 
 
 ## El papel de las metapoblaciones en la gestión de especies
 
-Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies:
+Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies. Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023-2024/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas:
 
 + Manejo de la cabra montés ibérica en Andalucía. Esta parte la comentamos explícitamente en clase.
+
 + Restauración de poblaciones de anfibios en la cuenca del río Guadiamar después del accidente de Aznalcollar (año 1998). No dio tiempo a hablar de esto.
+
 + Traslocación de megafauna en África. No nos dio tiempo a ver el vídeo, pero sí a comentarlo al día siguiente. A continuación se describe lo comentado:
   + ¿Qué conceptos o teorías propias de la ecología habéis identificado en el vídeo?
     + Capacidad de carga. En la población original había muchos elefantes y su número se aproximaba a la capacidad de carga.
-    + Dice Pablo que el hecho de que el elefante no tenga depredadores puede influir en que sus poblaciones se "descontrolen".
+    + El hecho de que el elefante no tenga depredadores puede influir en que sus poblaciones se "descontrolen". Esto no es cierto en este caso. Los elefantes no tienen depredadores y esto nunca ha generado problemas.
     + El concepto de madurez sexual tiene importancia en el sentido en el que no es lo mismo retirar un elefante viejo no reproductivo que uno joven que sí puede tener descendencia. 
-    + También vemos el efecto de los dos niveles de regulación dentro de las metapoblaciones: dina´mica interna en la subpoblación con sobreabundancia y migración en la escala metapoblacional.
+    + También vemos el efecto de los dos niveles de regulación dentro de las metapoblaciones: dinámica interna en la subpoblación con sobreabundancia y migración en la escala metapoblacional.
 
   + ¿A qué proceso ecológico natural sustituye la traslocación de elefantes?
     + migración natural
 
-  + ¿Qué problemas o desventajas tiene la traslocación de ejemplares?
+  + ¿Qué problemas o desventajas tiene la traslocación de ejemplares? ¿Cómo podríamos minimizar dichos problemas?
     + Puede que con el elefante viajen enfermedades que afecten a la población destino -> chequeo veterinario para evitar esto.
     + impacto del elefante nuevo en el territorio de llegada -> No lo sabemos.
-    + Coste económico y humano para hacer todo esto -> 
+    + Coste económico y humano para hacer todo esto -> ¿qué podemos hacer para reducir este gasto económico? ¿y si creamos corredores ecológicos entre las islas de "naturaleza"?
     + problemas comportamentales (etológicos) de los elefantes que llegan al sitio nuevo -> necesitamos etólogos/as que nos ayuden en esto. 
     + problemas de adaptacióin psicológica del elefante que se transporta -> no sabemos cómo hacerlo
 
-  + ¿Cómo podríamos minimizar dichos problemas?
-
-
-Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023_2024/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas. 
-
-
+    
 
 ## Ideas para activar el [preguntismo](https://aprendientesdotorg.wordpress.com/2015/10/15/activar-el-preguntismo/)
 
@@ -78,3 +79,18 @@ Se ha comprobado que una buena forma de fijar conocimientos y de identificar car
 
 
 
+**1.-El movimiento de los elefantes ¿se consideraría efecto rescate?**
+
+Sí, claramente la traslocación de elefantes de una subpoblación a otra puede considerarse como efecto rescate para la población que recibe los elefantes.
+
+**2.-¿Como afecta a la ética el hecho de obligar a la migración de especies como al elefante? Quiero decir, es necesario, pero si por ejemplo se separa una familia o a una pareja, está puede afectar psicológicamente al elefante, dado que son animales con raciocinio**.
+
+Es una muy buena pregunta que excede los límites de la ecología y se adentra en la etología y quizás en la psicología. Supongo que se intenta traslocar a individuos que no tienen familia o bien se desplazan familias completas. Pero en efecto, es una cuestión ética que habría que tener en cuenta. 
+
+**3.-¿Como interaccionan entre sí las subpoblaciones de manera directa e indirecta dentro de una metapoblacion?**
+
+No entiendo bien qué quieres decir con maneras directas e indirectas. A escala de individuo, la relación entre subpoblaciones ocurre a través de la migración. Los individuos se mueven entre subpoblaciones y eso genera un efecto tanto en la subpoblación que produce emigrantes como en la que los recibe. 
+
+**4.-Si los elefantes tienen tan buena memoria y forman fuertes vínculos si alguna vez ven como se llevan a uno de los suyos intentarían rescatarlo**
+
+Supongo que sí, pero no lo sé a ciencia cierta. 
