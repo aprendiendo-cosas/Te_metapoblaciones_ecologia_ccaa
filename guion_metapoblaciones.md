@@ -7,7 +7,7 @@
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **Duración**: Aproximadamente 2 horas.
 
-![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/2023-2024/imagenes/portada.png)
+![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/refs/tags/2024_2025/imagenes/portada.png)
 
 
 <span style="color:black;font-weight:700;font-size:8px">
@@ -38,8 +38,8 @@ La idea de metapoblación implica que hay dos mecanismos de regulación a dos es
 Estos conceptos y algunos más se muestran en la siguiente presentación:
 
 + [Visualización en línea](https://prezi.com/view/ozK4bgupN9vxSxgBC5ds/).
-+ Descarga de ejecutable para verla offline. Disponible para  [Mac](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023-2024/presentacion/teoria_metapoblaciones.zip) y para [Windows](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023-2024/presentacion/teoria_metapoblaciones.exe).
-+ [Descarga en formato pdf](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023-2024/presentacion/teoria_metapoblaciones.pdf).
++ Descarga de ejecutable para verla offline. Disponible para  [Mac](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2024_2025/presentacion/teoria_metapoblaciones.zip) y para [Windows](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2024_2025/presentacion/teoria_metapoblaciones.exe).
++ [Descarga en formato pdf](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2024_2025/presentacion/teoria_metapoblaciones.pdf).
 + También se puede ver incrustada a continuación:
 
 <iframe src="https://prezi.com/p/embed/ozK4bgupN9vxSxgBC5ds/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="915" width="560"></iframe>
@@ -48,7 +48,7 @@ Estos conceptos y algunos más se muestran en la siguiente presentación:
 
 ## El papel de las metapoblaciones en la gestión de especies
 
-Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies. Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2023-2024/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas:
+Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies. Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2024_2025/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas:
 
 + Manejo de la cabra montés ibérica en Andalucía. Esta parte la comentamos explícitamente en clase.
 
@@ -60,7 +60,7 @@ Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblaci
 
 ## Ideas para activar el [preguntismo](https://aprendientesdotorg.wordpress.com/2015/10/15/activar-el-preguntismo/)
 
-Se ha comprobado que una buena forma de fijar conocimientos y de identificar carencias en el aprendizaje es tratar de formular preguntas sobre el tema estudiado. Así que, en algunas sesiones abriré un espacio para que inventes preguntas. La idea es que formules una pregunta sobre temas que te interesen relacionados con lo que hemos visto en clase. O cuestiones que conecten con la actualidad o que estén relacionadas con otras disciplinas. También sirven preguntas locas que no tienen por qué tener respuesta. Sube tu pregunta a [este](https://docs.google.com/forms/d/e/1FAIpQLScs9QiBABvvDUt1La1wNdGmao9PplCMSReVgV8wBIX5Q3YTZQ/viewform?usp=sf_link) formulario en los últimos 5' de clase. Pondré las respuestas a dichas preguntas a continuación. 
+Se ha comprobado que una buena forma de fijar conocimientos y de identificar carencias en el aprendizaje es tratar de formular preguntas sobre el tema estudiado. Así que, en algunas sesiones abriré un espacio para que inventes preguntas. La idea es que formules una pregunta sobre temas que te interesen relacionados con lo que hemos visto en clase. O cuestiones que conecten con la actualidad o que estén relacionadas con otras disciplinas. También sirven preguntas locas que no tienen por qué tener respuesta. Sube tu pregunta a [este](https://docs.google.com/forms/d/e/1FAIpQLScs9QiBABvvDUt1La1wNdGmao9PplCMSReVgV8wBIX5Q3YTZQ/viewform?usp=sf_link) formulario en los últimos 5' de clase. Habría contestado a dichas preguntas a continuación, pero no ha habido ninguna a tiempo de terminar este guión. Revisaré periódicamente el formulario y trataré de dar respuesta a lo que haya, pero ya no se verán aquí los resultados.
 
 
 
