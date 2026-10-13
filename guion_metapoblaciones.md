@@ -2,12 +2,12 @@
 
 
 > + **_Tipo de material_**: <span style="display: inline-block; font-size: 12px; color: white; background-color: #029BF9; border-radius: 5px; padding: 5px; font-weight: bold;"> Teoría</span> <span style="display: inline-block; font-size: 12px; color: white; background-color: #E68532; border-radius: 5px; padding: 5px; font-weight: bold;"> Aplicación</span>
-> + **_Versión_**: 2024-2025
+> + **_Versión_**: 2026-2027
 > + **_Asignatura (grado)_**: Ecología (CCAA)
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **Duración**: Aproximadamente 2 horas.
 
-![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/refs/tags/2024_2025/imagenes/portada.png)
+![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/refs/tags/2026_2027/imagenes/portada.png)
 
 
 <span style="color:black;font-weight:700;font-size:8px">
@@ -106,13 +106,12 @@ Los conceptos descritos anteriormente se muestran en la siguiente presentación:
 + [Descarga en formato pdf](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026_2027/presentacion/teoria_metapoblaciones.pdf).
 + También se puede ver incrustada a continuación:
 
-<iframe src="https://prezi.com/p/embed/HVNUNV6AEAildf8Wawgi/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="915" width="560"></iframe>
-
+<iframe src="https://prezi.com/p/embed/rqjOcSAhETwmd1wOYay9/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="915" width="560"></iframe>
 
 
 ## El papel de las metapoblaciones en la gestión de especies
 
-Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies. Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2024_2025/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas:
+Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies. Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026_2027/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas:
 
 + Manejo de la cabra montés ibérica en Andalucía. Esta parte la comentamos explícitamente en clase.
 
@@ -122,23 +121,21 @@ Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblaci
 
 
 
-## Ideas para activar el [preguntismo](https://aprendientesdotorg.wordpress.com/2015/10/15/activar-el-preguntismo/)
-
-Se ha comprobado que una buena forma de fijar conocimientos y de identificar carencias en el aprendizaje es tratar de formular preguntas sobre el tema estudiado. Así que, en algunas sesiones abriré un espacio para que inventes preguntas. La idea es que formules una pregunta sobre temas que te interesen relacionados con lo que hemos visto en clase. O cuestiones que conecten con la actualidad o que estén relacionadas con otras disciplinas. También sirven preguntas locas que no tienen por qué tener respuesta. Sube tu pregunta a [este](https://docs.google.com/forms/d/e/1FAIpQLScs9QiBABvvDUt1La1wNdGmao9PplCMSReVgV8wBIX5Q3YTZQ/viewform?usp=sf_link) formulario en los últimos 5' de clase. Habría contestado a dichas preguntas a continuación, pero no ha habido ninguna a tiempo de terminar este guión. Revisaré periódicamente el formulario y trataré de dar respuesta a lo que haya, pero ya no se verán aquí los resultados.
 
 
+---
 
+[Aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/archive/refs/tags/2026_2027.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
 
-
-
-****
-
-[Aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/archive/refs/tags/2024_2025.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
-
-****
+---
 Haz click [aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
 
-****
+---
+
+[Aquí](https://github.com/aprendiendo-cosas/P_estructura_pobs_ecologia_CCAA/blob/2026_2027/notas_imparticion_Te_metapoblaciones_ecologia_ccaa.md) puedes ver las notas que tomó el profesor una vez que se impartió la clase.
+
+---
+
  <p xmlns:cc="http://creativecommons.org/ns#" >El contenido de este repositorio se puede utilizar bajo la siguiente licencia:  <a  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"  target="_blank" rel="license noopener noreferrer"  style="display:inline-block;">CC BY-NC-SA 4.0<img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"  alt=""></a></p> 
 
 <p>Esta licencia no aplica a enlaces a artículos, libros o imágenes no originales. Estos productos tienen su licencia correspondiente.</p>
