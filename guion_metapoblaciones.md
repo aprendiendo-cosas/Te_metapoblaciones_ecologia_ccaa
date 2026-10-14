@@ -132,7 +132,7 @@ Haz click [aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecolog
 
 ---
 
-[Aquí](https://github.com/aprendiendo-cosas/P_estructura_pobs_ecologia_CCAA/blob/2026_2027/notas_imparticion_Te_metapoblaciones_ecologia_ccaa.md) puedes ver las notas que tomó el profesor una vez que se impartió la clase.
+[Aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/blob/2026_2027/notas_imparticion_Te_metapoblaciones_ecologia_ccaa.md) puedes ver las notas que tomó el profesor una vez que se impartió la clase.
 
 ---
 
