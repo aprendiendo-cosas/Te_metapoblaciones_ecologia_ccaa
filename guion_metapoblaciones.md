@@ -7,7 +7,7 @@
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **Duración**: Aproximadamente 2 horas.
 
-![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/refs/tags/2026_2027/imagenes/portada.png)
+![portada](https://raw.githubusercontent.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/refs/tags/2026-2027/imagenes/portada.png)
 
 
 <span style="color:black;font-weight:700;font-size:8px">
@@ -102,8 +102,8 @@ Este fenómeno conduce a la diferenciación subespecífica. Como se evidencia en
 Los conceptos descritos anteriormente se muestran en la siguiente presentación:
 
 + [Visualización en línea](https://prezi.com/view/HVNUNV6AEAildf8Wawgi/).
-+ Descarga de ejecutable para verla offline. Disponible para  [Mac](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026_2027/presentacion/teoria_metapoblaciones.zip) y para [Windows](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026_2027/presentacion/teoria_metapoblaciones.exe).
-+ [Descarga en formato pdf](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026_2027/presentacion/teoria_metapoblaciones.pdf).
++ Descarga de ejecutable para verla offline. Disponible para  [Mac](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026-2027/presentacion/teoria_metapoblaciones.zip) y para [Windows](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026-2027/presentacion/teoria_metapoblaciones.exe).
++ [Descarga en formato pdf](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026-2027/presentacion/teoria_metapoblaciones.pdf).
 + También se puede ver incrustada a continuación:
 
 <iframe src="https://prezi.com/p/embed/rqjOcSAhETwmd1wOYay9/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="915" width="560"></iframe>
@@ -111,7 +111,7 @@ Los conceptos descritos anteriormente se muestran en la siguiente presentación:
 
 ## El papel de las metapoblaciones en la gestión de especies
 
-Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies. Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026_2027/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas:
+Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblación en la gestión de especies. Para guiar la sesión se usa [esta](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/raw/2026-2027/presentacion/aplicaciones_metapoblaciones.pptx) presentación de diapositivas:
 
 + Manejo de la cabra montés ibérica en Andalucía. Esta parte la comentamos explícitamente en clase.
 
@@ -125,14 +125,14 @@ Esta segunda parte pretende mostrar ejemplos del uso del concepto de metaboblaci
 
 ---
 
-[Aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/archive/refs/tags/2026_2027.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
+[Aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/archive/refs/tags/2026-2027.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
 
 ---
 Haz click [aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
 
 ---
 
-[Aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/blob/2026_2027/notas_imparticion_Te_metapoblaciones_ecologia_ccaa.md) puedes ver las notas que tomó el profesor una vez que se impartió la clase.
+[Aquí](https://github.com/aprendiendo-cosas/Te_metapoblaciones_ecologia_ccaa/blob/2026-2027/notas_imparticion_Te_metapoblaciones_ecologia_ccaa.md) puedes ver las notas que tomó el profesor una vez que se impartió la clase.
 
 ---
 
